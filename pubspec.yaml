@@ -1,0 +1,47 @@
+name: foodbridge
+description: "A new Flutter project."
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  firebase_core: ^3.12.0
+  firebase_auth: ^5.5.0
+  cloud_firestore: ^5.6.4
+  geolocator: ^13.0.2
+  flutter_sanity_image_url: ^0.1.0
+  image_picker: ^1.1.2
+  path_provider: ^2.1.5
+  firebase_storage: ^12.4.3
+  flutter_map: ^6.1.0
+  latlong2: ^0.9.0
+  image_picker_web: ^4.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  assets:
+    - assets/fonts/
+
+  fonts:
+    - family: NotoSans
+      fonts:
+        - asset: assets/fonts/NotoSans-Regular.ttf
+        - asset: assets/fonts/NotoSans-Bold.ttf
+        - asset: assets/fonts/NotoSans-Italic.ttf
+    - family: NotoSerif
+      fonts:
+        - asset: assets/fonts/NotoSerif-Regular.ttf
+        - asset: assets/fonts/NotoSerif-Bold.ttf
+        - asset: assets/fonts/NotoSerif-Italic.ttf
